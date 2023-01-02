@@ -1,0 +1,166 @@
+<%- include('partials/Blogheader') %>
+    <main>
+        <div class="site-wrapper light ">
+            <div class="main-overlay"></div>
+            <header class="header-default">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-xl">
+                        <!-- logo  -->
+                        <div class="header-top">
+
+                            <a href="/" class="navbar-brand">
+                                <img src="images/Logo.png" alt="" class="logo">
+                            </a>
+
+                            <div class="collapse navbar-collapse">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item dropdown active">
+                                        <a href="/" class="nav-link dropdown-toggle">Home</a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#Id_1" class="dropdown-item">Latest_Blog_Post</a>
+                                            </li>
+                                            <li>
+                                                <a href="#Id_2" class="dropdown-item">Trending_News</a>
+                                            </li>
+                                            <li>
+                                                <a href="#id_3" class="dropdown-item"> Other_Trending_Post</a>
+                                            </li>
+                                            <li>
+                                                <a href="#id_4" class="dropdown-item">Blog_Article</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a href="/editor" class="nav-link">Publish_An_Article</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a href="#id_5" class="nav-link">About Us</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a href="https://www.ukmusic.org/">Uk_Music</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a href="https://www.val9ja.com/music/"> Nigeria_latest_Music</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+
+                        <!-- right side of header  -->
+                        <div class="header-right">
+
+                            <!-- buttons  -->
+                            <div class="header-buttons">
+                                <button class="search icon-button">
+                                    <i class="icon-magnifier"></i>
+                                </button>
+                                <button class="burger-menu icon-button">
+                                    <span class="burger-icon"></span>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+
+            </header>
+
+
+            <div class="banner1"></div>
+
+            <div class="blog">
+                <h1 class="title"></h1>
+                <p class="published"><span>published at - </span></p>
+                <div class="article">
+
+                </div>
+            </div>
+
+            <!-- <h1 class="sub-heading">Read more</h1> -->
+
+            <!-- blog section -->
+            <section class="blogs-section">
+                <!-- <div class="blog-card">
+            <img src="img/header.png" class="blog-image" alt="">
+            <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="blog-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt fugiat quos porro repellat harum. Adipisci tempora corporis rem cum.</p>
+            <a href="/" class="btn dark">read</a>
+        </div> -->
+            </section>
+
+
+            <!-- canvas menu  -->
+            <div class="canvas-menu d-flex align-items-end flex-column">
+                <button class="btn-close" aria-label="Close" type="button"></button>
+
+                <div class="logo">
+                </div>
+                <nav>
+                    <ul class="vertical-menu">
+                        <li class="active">
+                            <a href="/">Home</a>
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#Id_1">Latest_Blog_Post</a>
+                                </li>
+                                <li>
+                                    <a href="#Id_2">Trending_News</a>
+                                </li>
+                                <li>
+                                    <a href="#id_3"> Other_Trending_Post</a>
+                                </li>
+                                <li>
+                                    <a href="#id_4">Blog_Article</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/editor">Publish_An_Article</a>
+                        </li>
+                        <li>
+                            <a href="#id_5">About Us</a>
+                        </li>
+                        <li>
+                            <a href="https://www.ukmusic.org/" class="nav-link">Uk_Music</a>
+                        </li>
+                        <li>
+                            <a href="https://www.val9ja.com/music/" class="nav-link"> Nigeria_latest_Music</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <!-- search pop up  -->
+            <div class="search-popup">
+                <button class="btn-close" aria-label="Close" type="button"></button>
+
+                <div class="search-content">
+                    <div class="text-center">
+                        <h3 class="mb-4 mt-0">Press ESC to close</h3>
+                    </div>
+
+                    <form action="" class="d-flex search-form">
+                        <input type="search" placeholder="Search and press enter ..." aria-label="Search" class="form-control me-2">
+                        <button class="btn btn-default btn-lg" type="submit">
+        <i class="icon-magnifier"></i>
+    </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/blog.js"></script>
+
+    </body>
+
+    </html>

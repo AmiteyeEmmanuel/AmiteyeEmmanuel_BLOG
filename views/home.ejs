@@ -1,0 +1,1039 @@
+<%- include('partials/header') %>
+    <html>
+
+    <body onload="slider()">
+        <main>
+            <div class="site-wrapper light ">
+                <div class="main-overlay"></div>
+                <header class="header-default">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-xl">
+                            <!-- logo  -->
+                            <div class="header-top">
+
+                                <a href="/" class="navbar-brand">
+                                    <img src="images/Logo.png" alt="" class="logo">
+                                </a>
+
+                                <div class="collapse navbar-collapse">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item dropdown active">
+                                            <a href="/" class="nav-link dropdown-toggle">Home</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="#Id_1" class="dropdown-item">Latest_Blog_Post</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#Id_2" class="dropdown-item">Trending_News</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#id_3" class="dropdown-item"> Other_Trending_Post</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#id_4" class="dropdown-item">Blog_Article</a>
+                                                </li>
+
+
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a href="/editor" class="nav-link">Publish_An_Article</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a href="#id_5" class="nav-link">About Us</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a href="https://www.ukmusic.org/" class="nav-link">Uk_Music</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a href="https://www.val9ja.com/music/" class="nav-link"> Nigeria_latest_Music</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- right side of header  -->
+                            <div class="header-right">
+
+                                <!-- buttons  -->
+                                <div class="toggle">
+                                    <button class="toggle-btn">
+                                        <i class="bi bi-moon-fill"></i>
+                                        <i class="bi bi-brightness-high-fill"></i>
+                                </button>
+                                </div>
+
+                                <div class="header-buttons">
+                                    <button class="search icon-button">
+                                    <i class="icon-magnifier"></i>
+                                </button>
+                                    <button class="burger-menu icon-button">
+                                    <span class="burger-icon"></span>
+                                </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+
+                </header>
+
+                <!-- section starts  -->
+                <section id="hero">
+                    <div class="container-xl">
+                        <div class="row gy-4">
+                            <div class="col-lg-8">
+
+                                <div class="post featured-post-lg">
+                                    <div class="details clearfix">
+                                        <h2 class="post-title">
+                                            <a href="/"> Good Music brings happiness</a>
+                                        </h2>
+                                        <ul class="meta list-inline mb-0">
+                                            <li class="list-inline-item">
+                                                <a href="/">THE_MUSIC_COMBINATION</a>
+                                            </li>
+                                            <li class="list-inline-item">15 November 2022</li>
+                                        </ul>
+                                    </div>
+                                    <a href="/">
+                                        <div class="thumb rounded">
+                                            <div class="inner data-bg-image" data-bg-image="images/i/Slide1.jpg">
+                                                <img src="images/i/Slide1.jpg" alt="" id="slideImg">
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="post-tabs rounded bordered">
+                                    <ul class="nav nav-tabs nav-pills nav-fill" id="postTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button aria-controls="popular" aria-selected="true" class="nav-link active" data-bs-target="#popular" data-bs-toggle="tab" id="popular-tab" role="tab" type="button">
+                                                    Popular
+                                                </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button aria-controls="recent" aria-selected="false" class="nav-link" data-bs-target="#recent" data-bs-toggle="tab" id="recent-tab" role="tab" type="button">
+                                                    Recent
+                                                </button>
+                                        </li>
+
+                                    </ul>
+
+                                    <!-- content  -->
+                                    <div class="tab-content" id="postsTabContent">
+                                        <!-- loader -->
+                                        <div class="lds-dual-ring"></div>
+                                        <!-- pop post  -->
+
+                                        <div class="tab-pane fade show active" id="popular" aria-labelledby="popular-tab" role="tabpanel">
+                                            <!-- post  -->
+                                            <div class="post post-list-sm circle">
+                                                <div class="thumb circle">
+                                                    <a href="https://www.pulse.ng/entertainment/music/remas-calm-down-surpasses-1-billion-streams-across-all-platforms/zfg82wy">
+                                                        <div class="inner">
+                                                            <img src="images/i/blog-images/Rema.jpg" alt="">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://www.pulse.ng/entertainment/music/remas-calm-down-surpasses-1-billion-streams-across-all-platforms/zfg82wy"> Rema's 'Calm Down' surpasses 1 billion streams across all platforms</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">November 14, 2022
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- post2  -->
+                                            <div class="post post-list-sm circle">
+                                                <div class="thumb circle">
+                                                    <a href="https://www.pulse.ng/entertainment/music/live-performance-of-wizkids-more-love-less-ego-to-be-available-on-apple-music-on/pmh2gdt">
+                                                        <div class="inner">
+                                                            <img src="../images/i/blog-images/machala.jpg" alt="">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://www.pulse.ng/entertainment/music/live-performance-of-wizkids-more-love-less-ego-to-be-available-on-apple-music-on/pmh2gdt">Live performance of Wizkid's 'More Love, Less Ego'</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">November 15, 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- post3  -->
+                                            <div class="post post-list-sm circle">
+                                                <div class="thumb circle">
+                                                    <a href="https://www.newsnow.com/ng/Entertainment/Music/Afrobeats">
+                                                        <div class="inner">
+                                                            <img src="/images/i/blog-images/fireboy.jpg" alt="">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://www.newsnow.com/ng/Entertainment/Music/Afrobeats">Afro-beats Nigeria Latest News</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">16 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- post4  -->
+                                            <div class="post post-list-sm circle">
+                                                <div class="thumb circle">
+                                                    <a href="https://music.apple.com/gb/playlist/top-100-nigeria/pl.2fc68f6d68004ae993dadfe99de83877">
+                                                        <div class="inner">
+                                                            <img src="../images/i/blog-images/Apple.jpg">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://music.apple.com/gb/playlist/top-100-nigeria/pl.2fc68f6d68004ae993dadfe99de83877"> Naija Top 100 Apple music song as at November 2022. </a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">16 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- recent  -->
+                                        <div class="tab-pane fade" id="recent" aria-labelledby="recent-tab" role="tabpanel">
+                                            <!-- post  -->
+                                            <div class="post post-list-sm circle">
+                                                <div class="thumb circle">
+                                                    <a href="https://www.billboard.com/charts/hot-100/">
+                                                        <div class="inner">
+                                                            <img src="../images/i/blog-images/Billboard1.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://www.billboard.com/charts/hot-100/">Billboard Hot 100</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">14 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- post2  -->
+                                            <div class="post post-list-sm circle">
+                                                <div class="thumb circle">
+                                                    <a href="https://www.360hausa.com.ng/top-5-popular-artists-in-nigeria-2022-experts-analysis/">
+                                                        <div class="inner">
+                                                            <img src="images/i/blog-images/Nigerian.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://www.360hausa.com.ng/top-5-popular-artists-in-nigeria-2022-experts-analysis/">Top 5 Nigerian Musicians in Nigeria (2022)</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">16 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- post3  -->
+                                            <div class="post post-list-sm circle">
+                                                <div class="thumb circle">
+                                                    <a href="https://trendybeatz.com/music-news/1016/tems-on-the-pathway-to-becoming-the-queen-of-afrobeats">
+                                                        <div class="inner">
+                                                            <img src="images/i/blog-images/Tems.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://trendybeatz.com/music-news/1016/tems-on-the-pathway-to-becoming-the-queen-of-afrobeats"> Tems on the Pathway to Becoming the Queen of Afrobeats</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">18 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- post4  -->
+                                            <div class="post post-list-sm circle">
+                                                <div class="thumb circle">
+                                                    <a href="https://www.bellanaija.com/2022/11/nigerian-music-albums/">
+                                                        <div class="inner">
+                                                            <img src="images/i/blog-images/Blog4.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://www.bellanaija.com/2022/11/nigerian-music-albums/"> Here’s a List of Albums That Made Our 2022</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">20 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- main content  -->
+
+                <section class="main-content">
+                    <div class="container-xl">
+                        <div class="row gy-4">
+
+                            <!-- left part 1st section  -->
+                            <div class="col-lg-8">
+                                <div class="section-header">
+                                    <h3 class="section-title" id="Id_1">Latest Blog Post</h3>
+                                </div>
+
+                                <div class="padding-30 rounded bordered">
+                                    <div class="row gy-5">
+                                        <div class="col-sm-6">
+                                            <!-- post  -->
+                                            <div class="post">
+                                                <div class="thumb rounded">
+                                                    <span class="post-format">
+                                                        </span>
+                                                    <a href="https://lifestyle.thecable.ng/otedola-hires-multi-million-iconic-superyacht-a60th-birthday/">
+                                                        <div class="inner">
+                                                            <img src="../images/i/blog-images/otedola.jpg" alt="">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <ul class="meta list-inline mt-4 mb-0">
+                                                    <li class="list-inline-item">
+                                                        <a href="https://lifestyle.thecable.ng/otedola-hires-multi-million-iconic-superyacht-a60th-birthday/">
+                                                            Blog News
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">18 Nov 2022</li>
+                                                </ul>
+                                                <h5 class="post-title mb-3 mt-3">
+                                                    <a href="https://lifestyle.thecable.ng/otedola-hires-multi-million-iconic-superyacht-a60th-birthday/">  Multi-millionaire Otedola latest News </a>
+                                                </h5>
+                                                <p class="excerpt mb-0">
+                                                    Otedola hires multi-million iconic superyacht ahead of 60th birthday.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="post post-list-sm square">
+                                                <div class="thumb rounded">
+                                                    <a href="https://www.pulse.ng/entertainment/music/tiwa-savage-and-asake-drop-highly-anticipated-single-loaded/lse6lz4">
+                                                        <div class="inner">
+                                                            <img src="../images/i/blog-images/Tiwa-Asake.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix">
+                                                    <h6 class="post-title my-0">
+                                                        <a href="https://www.pulse.ng/entertainment/music/tiwa-savage-and-asake-drop-highly-anticipated-single-loaded/lse6lz4">
+                                                            Tiwa Savage & Asake drops ......'Loaded'
+                                                            </a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0">
+                                                        <li class="list-inline-item">11 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post post-list-sm square">
+                                                <div class="thumb rounded">
+                                                    <a href="https://www.val9ja.com/fireboy-dml-coming-back-for-you/">
+                                                        <div class="inner">
+                                                            <img src="../images/i/blog-images/black-panther.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.val9ja.com/fireboy-dml-coming-back-for-you/ ">
+                                                            Fireboy DML – Coming Back For You
+                                                            </a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">15 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post post-list-sm square ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.newsnow.com/ng/Entertainment/Music/Afrobeats">
+                                                        <div class="inner ">
+                                                            <img src="../images/i/blog-images/latest.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.newsnow.com/ng/Entertainment/Music/Afrobeats">
+                                                            Afro-beats Nigeria Latest News.
+                                                            </a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">17 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post post-list-sm square ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.pulse.ng/entertainment/music/tems-burna-rema-continue-run-on-billboard-hot-100-1st-week-of-november/fcjcrsh">
+                                                        <div class="inner ">
+                                                            <img src="../images/i/blog-images/Blog3.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.pulse.ng/entertainment/music/tems-burna-rema-continue-run-on-billboard-hot-100-1st-week-of-november/fcjcrsh">
+                                                            Tems, Burna Boy, Rema continue run on Billboard Hot 100.
+                                                            </a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">17 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="spacer " data-height="50 "></div>
+
+                                <div class="section-header ">
+                                    <h3 class="section-title" id="Id_2"> Trending Music News</h3>
+                                </div>
+
+                                <div class="padding-30 rounded bordered ">
+                                    <div class="row gy-5 ">
+                                        <div class="col-sm-6 ">
+                                            <div class="post ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.pulse.ng/entertainment/music/audiomack-partners-with-afrochella-to-launch-the-fourth-edition-of-the-rising-star/jtzp9b8" class="category-badge position-absolute "></a>
+                                                    <div class="inner ">
+                                                        <img src="images/i/blog-images/Audiomack.jpg" alt="" class="img2">
+                                                    </div>
+                                                    </a>
+                                                </div>
+                                                <ul class="meta list-inline mt-4 mb-0 ">
+                                                    <li class="list-inline-item ">
+                                                        <a href="https://www.pulse.ng/entertainment/music/audiomack-partners-with-afrochella-to-launch-the-fourth-edition-of-the-rising-star/jtzp9b8">
+                                                        </a>
+                                                    </li>
+                                                    18 November 2022
+                                                </ul>
+                                                <h5 class="post-title mb-3 mt-3 ">
+                                                    <a href="https://www.pulse.ng/entertainment/music/audiomack-partners-with-afrochella-to-launch-the-fourth-edition-of-the-rising-star/jtzp9b8">Audiomack partners with Afrochella to launch the Fourth Edition of the Rising Star Challenge</a>
+                                                </h5>
+                                            </div>
+
+                                            <div class="post post-list-sm square before-seperator ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.pulse.ng/entertainment/music/v/ydjwx21">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/Wande.jpg" alt="" class="img3">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.pulse.ng/entertainment/music/v/ydjwx21"> DJ Tunez and Wande Coal release new Amapiano jam, 'Flex' </a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">19 Nov 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post post-list-sm square before-seperator ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.legit.ng/entertainment/music/1504532-big-wiz-doings-5-moments-wizkid-shutdown-international-shows/">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/BigWiz.jpg" alt="" class="img3">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.legit.ng/entertainment/music/1504532-big-wiz-doings-5-moments-wizkid-shutdown-international-shows/"> Big Wiz Doings: 5 Moments Wizkid Has Shutdown International Shows </a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">20 Nov 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+
+
+                                        </div>
+
+                                        <div class="col-sm-6 ">
+                                            <div class="post ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.pulse.ng/entertainment/music/burna-boys-love-damini-earns-nomination-for-2023-grammy-awards-full-nominations-list/8f31jqn" class="category-badge position-absolute ">Inspiration</a>
+                                                    <div class="inner ">
+                                                        <img src="images/i/blog-images/Burna.jpg " alt="" class="img2">
+                                                    </div>
+                                                    </a>
+                                                </div>
+                                                <ul class="meta list-inline mt-4 mb-0 ">
+                                                    <li class="list-inline-item ">
+                                                        <a href="https://www.pulse.ng/entertainment/music/burna-boys-love-damini-earns-nomination-for-2023-grammy-awards-full-nominations-list/8f31jqn">
+                                                        </a>
+                                                    </li>
+                                                    19 November 2022
+                                                </ul>
+                                                <h5 class="post-title mb-3 mt-3 ">
+                                                    <a href="https://www.pulse.ng/entertainment/music/burna-boys-love-damini-earns-nomination-for-2023-grammy-awards-full-nominations-list/8f31jqn">Burna Boy's 'Love, Damini' earns nomination for 2023 Grammy Awards [See Full Nominations List]</a>
+                                                </h5>
+                                            </div>
+
+                                            <div class="post post-list-sm square before-seperator ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.pulse.ng/entertainment/music/burna-boy-wins-2022-mtv-emas-best-african-act-see-full-winners-list/wtlbe5f">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/Burna1.jpg" alt="" class="img3">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.pulse.ng/entertainment/music/burna-boy-wins-2022-mtv-emas-best-african-act-see-full-winners-list/wtlbe5f">Burna Boy wins 2022 MTV EMAs Best African Act [See full winners list]</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">19 Nov 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post post-list-sm square before-seperator ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.pulse.ng/entertainment/music/ric-hassani-returns-with-new-single-amina/y8e4py3">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/Ric_Hassani.jpg" alt="" class="img3">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.pulse.ng/entertainment/music/ric-hassani-returns-with-new-single-amina/y8e4py3">Ric Hassani returns with new single, 'Amina'.</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">19 Nov 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="spacer " data-height="50 "></div>
+
+                                <div class="spacer " data-height="50 "></div>
+
+                                <div class="section-header ">
+                                    <h3 class="section-title" id="id_3"> Other Trending Post</h3>
+                                </div>
+
+                                <div class="padding-30 rounded bordered ">
+                                    <div class="row ">
+                                        <div class="col-md-12 col-sm-6 ">
+                                            <!-- post  -->
+                                            <div class="post post-list clearfix ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.legit.ng/nigeria/1502419-users-risk-elon-musk-announces-move-suspend-fake-twitter-accounts-reason/">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/twitter.jpg" alt="" class="img4">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details ">
+                                                    <ul class="meta list-inline mb-3 ">
+                                                        <li class="list-inline-item ">20 Nov 2022</li>
+                                                    </ul>
+                                                    <h5 class="post-tile ">
+                                                        <a href="https://www.legit.ng/nigeria/1502419-users-risk-elon-musk-announces-move-suspend-fake-twitter-accounts-reason/ ">
+                                                            Users at risk as Elon Musk Announces Move to Suspend Fake Twitter Accounts, Gives Reason.
+                                                            </a>
+                                                    </h5>
+                                                    <div class="post-bottom clearfix d-flex align-items-center ">
+                                                        <div class="social-share me-auto ">
+                                                            <button class="toggle-button icon-share "></button>
+                                                            <ul class="icons list-unstyled list-inline mb-0 ">
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-facebook-f "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-twitter "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-linkedin-in "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-pinterest "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-telegram-plane "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="far fa-envelope "></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="more-button float-end ">
+                                                            <a href="# "><span class="icon-options "></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-6 ">
+                                            <!-- post  -->
+                                            <div class="post post-list clearfix ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://www.legit.ng/entertainment/music/">
+                                                        <div class="inner ">
+                                                            <img src="../images/i/blog-images/NaijaGospel.jpg" alt="" class="img4">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details ">
+                                                    <ul class="meta list-inline mb-3 ">
+                                                        <li class="list-inline-item ">20 Nov 2022</li>
+                                                    </ul>
+                                                    <h5 class="post-tile ">
+                                                        <a href="https://www.legit.ng/entertainment/music/">
+                                                            Gospel Reggae Singer Buchi Set To Unite Churches, Hosts Hymn Festival With Panam Percy Paul, Others
+                                                            </a>
+                                                    </h5>
+                                                    <div class="post-bottom clearfix d-flex align-items-center ">
+                                                        <div class="social-share me-auto ">
+                                                            <button class="toggle-button icon-share "></button>
+                                                            <ul class="icons list-unstyled list-inline mb-0 ">
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-facebook-f "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-twitter "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-linkedin-in "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-pinterest "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-telegram-plane "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="far fa-envelope "></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="more-button float-end ">
+                                                            <a href="# "><span class="icon-options "></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-6 ">
+                                            <!-- post  -->
+                                            <div class="post post-list clearfix ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://lifestyle.thecable.ng/download-marvel-enlists-burna-boy-rema-for-black-panther-ii-soundtrack-album/">
+                                                        <div class="inner ">
+                                                            <img src="../images/i/blog-images/black-panther.jpg" alt="" class="img4">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details ">
+                                                    <ul class="meta list-inline mb-3 ">
+                                                        <li class="list-inline-item ">20 Nov 2022</li>
+                                                    </ul>
+                                                    <h5 class="post-tile ">
+                                                        <a href="https://lifestyle.thecable.ng/download-marvel-enlists-burna-boy-rema-for-black-panther-ii-soundtrack-album/ ">
+                                                            Marvel enlists Rema, Burna Boy, CKay, Tems, and Fireboy DML for ‘Black Panther II’ soundtrack album
+                                                            </a>
+                                                    </h5>
+                                                    <div class="post-bottom clearfix d-flex align-items-center ">
+                                                        <div class="social-share me-auto ">
+                                                            <button class="toggle-button icon-share "></button>
+                                                            <ul class="icons list-unstyled list-inline mb-0 ">
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-facebook-f "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-twitter "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-linkedin-in "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-pinterest "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-telegram-plane "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="far fa-envelope "></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="more-button float-end ">
+                                                            <a href="# "><span class="icon-options "></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-sm-6 ">
+                                            <!-- post  -->
+                                            <div class="post post-list clearfix ">
+                                                <div class="thumb rounded ">
+                                                    <a href="https://trendybeatz.com/music-news/1027/ybnl-and-mavin-records:-the-powerhouse-of-new-generation-artists-in-africa">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/MAVIN-and-YBNL.jpg" alt=" ">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details ">
+                                                    <ul class="meta list-inline mb-3 ">
+                                                        <li class="list-inline-item ">21 Nov 2022</li>
+                                                    </ul>
+                                                    <h5 class="post-tile ">
+                                                        <a href="https://trendybeatz.com/music-news/1027/ybnl-and-mavin-records:-the-powerhouse-of-new-generation-artists-in-africa">
+                                                            YBNL and MAVIN Records: The Powerhouse of New Generation Artists In Africa
+                                                            </a>
+                                                    </h5>
+                                                    <div class="post-bottom clearfix d-flex align-items-center ">
+                                                        <div class="social-share me-auto ">
+                                                            <button class="toggle-button icon-share "></button>
+                                                            <ul class="icons list-unstyled list-inline mb-0 ">
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-facebook-f "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-twitter "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-linkedin-in "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-pinterest "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="fab fa-telegram-plane "></i></a>
+                                                                </li>
+                                                                <li class="list-inline-item ">
+                                                                    <a href="# "><i class="far fa-envelope "></i></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="more-button float-end ">
+                                                            <a href="# "><span class="icon-options "></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!-- left part over here  -->
+                            </div>
+                            <!-- right part starts from here  -->
+
+                            <div class="col-lg-4 ">
+                                <div class="sidebar ">
+
+                                    <div class="widget rounded ">
+                                        <div class="widget-header text-center ">
+                                            <h3 class="widget-title "> Other News</h3>
+                                        </div>
+                                        <div class="widget-content ">
+                                            <div class="post post-list-sm circle ">
+                                                <div class="thumb circle ">
+                                                    <a href="https://www.skysports.com/football/qatar-vs-ecuador/report/462959">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/world-cup.jpg " alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.skysports.com/football/qatar-vs-ecuador/report/462959">Qatar 0-2 Ecuador: Enner Valencia at the double as hosts lose World Cup opener for first time</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">20 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post post-list-sm circle ">
+                                                <div class="thumb circle ">
+                                                    <a href="https://olympics.com/en/news/lionel-messi-cristiano-ronaldo-chess-picture-louis-vuitton-instagram">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/Goats.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://olympics.com/en/news/lionel-messi-cristiano-ronaldo-chess-picture-louis-vuitton-instagram"> photo of Lionel Messi-Cristiano Ronaldo playing chess goes viral</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">20 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post post-list-sm circle ">
+                                                <div class="thumb circle ">
+                                                    <a href="https://news.un.org/en/story/2022/11/1130857">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/russia-ulkarine.jpg" alt="" class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://news.un.org/en/story/2022/11/1130857">Overnight blasts near Ukraine nuclear plant are ‘playing with fire!’ – UN nuclear chief</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">21 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post post-list-sm circle ">
+                                                <div class="thumb circle ">
+                                                    <a href="https://www.legit.ng/business-economy/technology/1497808-top-10-skit-makers-comedians-instagram-nigeria/">
+                                                        <div class="inner ">
+                                                            <img src="images/i/blog-images/skit.jpg" alt=" " class="img1">
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="details clearfix ">
+                                                    <h6 class="post-title my-0 ">
+                                                        <a href="https://www.legit.ng/business-economy/technology/1497808-top-10-skit-makers-comedians-instagram-nigeria/"> Top 10 Most Followed Skit Makers, Comedians on Instagram in Nigeria.</a>
+                                                    </h6>
+                                                    <ul class="meta list-inline mt-1 mb-0 ">
+                                                        <li class="list-inline-item ">18 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget rounded ">
+                                        <div class="widget-header text-center ">
+                                            <h3 class="widget-title ">Other Categories</h3>
+                                        </div>
+                                        <div class="widget-content ">
+                                            <ul class="list ">
+                                                <li><a href="https://www.theguardian.com/sport/blog">SPORT</a><span>(30+)</span></li>
+                                                <li><a href="https://techcrunch.com/">TECHNOLOGY</a><span>(100+)</span></li>
+                                                <li><a href="https://www.bbc.com/news/business-63482162">BBC_NEWS</a>
+                                                    <span>(40+)</span>
+                                                </li>
+                                                <li><a href="https://socialmediaexplorer.com/">SOCIAL MEDIA NEWS</a>
+                                                    <span>(30+)</span>
+                                                </li>
+                                                <li>
+                                                    <a href="https://blog.twitter.com/">TWITTER</a>
+                                                    <span>(53+)</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget rounded ">
+                                        <div class="widget-header text-center ">
+                                            <h3 class="widget-title ">Newsletter</h3>
+                                        </div>
+                                        <div class="widget-content ">
+                                            <form action="# ">
+                                                <div class="mb-2 ">
+                                                    <input type="email " class="form-control w-100 text-center " placeholder="Email address... ">
+                                                </div>
+                                                <button class="btn btn-default btn-full ">Sign Up</button>
+
+                                            </form>
+                                            <span class="newsletter-privacy text-center mt-3 ">
+                                                    By signing up, you agree to our <a href="# ">Privacy policy</a>
+                                                </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget rounded">
+                                        <div class="widget-header text-center">
+                                            <h3 class="widget-title"> MUSIC_TRENDS</h3>
+                                        </div>
+                                        <div class="widget-content">
+                                            <div class="post-carousel-widget">
+
+                                                <div class="post post-carousel">
+                                                    <div class="thumb rounded">
+                                                        <a href="https://www.pulse.ng/entertainment/music/oxlade-features-mayorkun-on-new-single-bad-boy/gs965st">
+                                                            <div class="inner">
+                                                                <img src="images/i/blog-images/Mayor.jpg" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <h5 class="post-title mb-0 mt-4">
+                                                        <a href="https://www.pulse.ng/entertainment/music/oxlade-features-mayorkun-on-new-single-bad-boy/gs965st">Oxlade features Mayorkun on new single 'Bad Boy'</a>
+                                                    </h5>
+                                                    <ul class="meta list-inline mt-2 mb-0">
+                                                        <li class="list-inline-item">26 November 2022</li>
+                                                    </ul>
+                                                </div>
+
+                                                <div class="post post-carousel">
+                                                    <div class="thumb rounded">
+                                                        <a href="https://www.pulse.ng/entertainment/music/kizz-daniel-thrills-thousands-of-fans-at-the-2022-fifa-world-cup/d4b8mdc">
+                                                            <div class="inner">
+                                                                <img src="images/i/blog-images/Kizzdaniel.jpg" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <h5 class="post-title mb-0 mt-4">
+                                                        <a href="https://www.pulse.ng/entertainment/music/kizz-daniel-thrills-thousands-of-fans-at-the-2022-fifa-world-cup/d4b8mdc"> Kizz Daniel thrills thousands of fans at the 2022 FIFA World Cup.</a>
+                                                    </h5>
+                                                    <ul class="meta list-inline mt-2 mb-0">
+                                                        <li class="list-inline-item">26 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="post post-carousel">
+                                                    <div class="thumb rounded">
+                                                        <a href="https://www.pulse.ng/entertainment/music/wizkid-wins-favorite-afrobeats-artist-at-2022-ama-awards-see-full-winners-list/tcvxjdn">
+                                                            <div class="inner">
+                                                                <img src="images/i/blog-images/Temss.jpg" alt="">
+                                                            </div>
+                                                        </a>
+                                                    </div>
+                                                    <h5 class="post-title mb-0 mt-4">
+                                                        <a href="https://www.pulse.ng/entertainment/music/wizkid-wins-favorite-afrobeats-artist-at-2022-ama-awards-see-full-winners-list/tcvxjdn">Wizkid, Tems win 2022 AMA Awards [See Full Winners List]</a>
+                                                    </h5>
+                                                    <ul class="meta list-inline mt-2 mb-0">
+                                                        <li class="list-inline-item">27 November 2022</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                </section>
+
+
+                <!--  Blog Section -->
+                <section class="blogs-section" id="id_4">
+                    <h1 class="Blog-Articles"> BLOG_ARTICLES </h1> <br>
+                    <!-- <div class="blog-card ">
+                    <img src="images/i/blog-images/BlogImage1.jpg " alt=" " class="blog-image ">
+                    <h1 class="blog-title ">
+                        Tems, Burna Boy, and Rema continue run on Billboard Hot 100</h1>
+                    <p class="blog-overview "> Details: In the Billboard Hot 100 chart week dated November 5, 2022, the Nigerian entries continue to appear on the chart even as they descend towards the lower end of the chart.</p>
+                    <a href="/ " class="btn dark "> read</a>
+                </div> -->
+                </section>
+
+
+                <%-  include('partials/footer') %>
+
+
+
+                    <!-- canvas menu  -->
+                    <div class="canvas-menu d-flex align-items-end flex-column">
+                        <button class="btn-close" aria-label="Close" type="button"></button>
+
+                        <div class="logo">
+                        </div>
+                        <nav>
+                            <ul class="vertical-menu">
+                                <li class="active">
+                                    <a href="/">Home</a>
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#Id_1">Latest_Blog_Post</a>
+                                        </li>
+                                        <li>
+                                            <a href="#Id_2">Trending_News</a>
+                                        </li>
+                                        <li>
+                                            <a href="#id_3"> Other_Trending_Post</a>
+                                        </li>
+                                        <li>
+                                            <a href="#id_4">Blog_Article</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="/editor">Publish_An_Article</a>
+                                </li>
+                                <li>
+                                    <a href="#id_5">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.ukmusic.org/">Uk_Music</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.val9ja.com/music/"> Nigeria_latest_Music</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+
+                    <!-- search pop up  -->
+                    <div class="search-popup">
+                        <button class="btn-close" aria-label="Close" type="button"></button>
+
+                        <div class="search-content">
+                            <div class="text-center">
+                                <h3 class="mb-4 mt-0">Press ESC to close</h3>
+                            </div>
+
+                            <form action="" class="d-flex search-form">
+                                <input type="search" placeholder="Search and press enter ..." aria-label="Search" class="form-control me-2">
+                                <button class="btn btn-default btn-lg" type="submit">
+                <i class="icon-magnifier"></i>
+            </button>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    </div>
+
+        </main>
+
+
+        <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js "></script>
+        <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js "></script>
+        <script src="js/firebase.js "></script>
+        <script src="js/jquery.min.js "></script>
+        <script src="js/popper.min.js "></script>
+        <script src="js/bootstrap.min.js "></script>
+        <script src="js/slick.min.js "></script>
+        <script src="js/jquery.sticky-sidebar.min.js "></script>
+        <script src="js/index.js "></script>

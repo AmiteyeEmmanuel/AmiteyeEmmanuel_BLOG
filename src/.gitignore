@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.git
+.cache
+.vscode
+.env
+dist/
+coverage/
+Api key.json
+.parcel-cache/
